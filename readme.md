@@ -12,4 +12,11 @@ O framework Spring, é um dos frameworks Java mais conhecido e utilizado. Esse f
 - JavaScript/JQuery
 - Noções de desenvolvimento Web
 
+# Inicializando o projeto
+Acessar start.spring.io e selecionar as seguintes dependências para gerar o projeto Maven: 
+- Web
+- JPA
+- Thymeleaf
+- H2
 
+Descompacte a pasta e importe no Eclipse Spring Tool Suit. Import -> Maven -> Existing Maven Projects
