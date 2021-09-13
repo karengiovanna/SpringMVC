@@ -1,0 +1,12 @@
+.navbar-brand{
+	padding-left: 16px;
+	
+}
+
+.card{
+	padding: 20px;
+}
+
+.col-sm-2 col-form-label{
+	padding-left: 30px
+}

@@ -1,0 +1,13 @@
+.navbar-brand{
+	padding-left: 16px;
+	
+}
+
+.card{
+	padding-top: 40px;
+}
+
+.form-group{
+	padding: 10px;
+	padding-left: 5%;
+}

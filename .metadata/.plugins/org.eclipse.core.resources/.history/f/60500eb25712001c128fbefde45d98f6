@@ -1,0 +1,5 @@
+package com.algaworks.cobranca.model;
+
+public class StatusTitulo {
+
+}

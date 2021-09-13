@@ -1,0 +1,8 @@
+.navbar-brand{
+	padding-left: 16px;
+	
+}
+
+.card{
+	padding-top: 40px;
+}
