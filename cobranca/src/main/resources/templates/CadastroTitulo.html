@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"> <!-- html do tipo de que tudo que abre precisa fechar -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+				xmlns:th="http://www.thymeleaf.org"> <!-- html do tipo de que tudo que abre precisa fechar -->
 	<head>
 		<meta charset="UTF-8"/>
 		<title>Cadastro de título</title>
@@ -18,6 +19,9 @@
 		</nav>
 		
 		<form class = "form-horizontal" method="POST" action="/titulos">
+			<div class="alert alert-success" th:if="${!#strings.isEmpty(mensagem)}" > <!--se o atributo mensagem não estiver vazio vai mostrar-->
+					<span th:text="${mensagem}"> Título salvo com sucesso!!!"</span>		
+			</div>
 			<div class="card">
 		  		<h5 class="card-header">Novo título</h5>
 				
