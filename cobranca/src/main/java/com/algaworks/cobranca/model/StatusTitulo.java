@@ -6,6 +6,7 @@ public enum StatusTitulo {
 	
 	private String descricao;
 	
+	// construtor
 	StatusTitulo(String descricao){
 		this.descricao = descricao;
 	}

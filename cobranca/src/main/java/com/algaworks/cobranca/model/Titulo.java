@@ -16,22 +16,19 @@ import javax.persistence.TemporalType;
 public class Titulo {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	
+	@GeneratedValue(strategy=GenerationType.IDENTITY) // estrategia que eu quero usar: o banco de dados resolve
 	private Long codigo;
 	private String descricao;
-	
 	@Temporal(TemporalType.DATE)
 	private Date dataVencimento;
-	private BigDecimal valor;
-	
+	private BigDecimal valor; // classe para trabalhar com inteiros e decimais
 	@Enumerated(EnumType.STRING)
 	private StatusTitulo status;
+	
 	
 	public Long getCodigo() {
 		return codigo;
 	}
-	
 	public void setCodigo(Long codigo) {
 		this.codigo = codigo;
 	}
