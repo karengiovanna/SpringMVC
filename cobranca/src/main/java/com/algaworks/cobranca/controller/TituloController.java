@@ -14,6 +14,8 @@ import com.algaworks.cobranca.model.StatusTitulo;
 import com.algaworks.cobranca.model.Titulo;
 import com.algaworks.cobranca.repository.Titulos;
 
+
+
 @Controller 
 @RequestMapping("/titulos")
 public class TituloController {
@@ -31,15 +33,9 @@ public class TituloController {
 	@RequestMapping(method = RequestMethod.POST)
 	public ModelAndView salvar(Titulo titulo) {
 		titulos.save(titulo);
-		
 		ModelAndView mv = new ModelAndView("CadastroTitulo");
 		mv.addObject("mensagem", "Título salvo com sucesso");
 		return mv;
-	}
-	
-	@RequestMapping
-	public String pesquisar() {
-		return "PesquisaTitulos";
 	}
 	
 	@ModelAttribute
