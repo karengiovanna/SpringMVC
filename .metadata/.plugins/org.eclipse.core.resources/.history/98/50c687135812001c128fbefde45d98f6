@@ -1,5 +1,0 @@
-package com.algaworks.cobranca.model;
-
-public enum StatusTitulo {
-
-}

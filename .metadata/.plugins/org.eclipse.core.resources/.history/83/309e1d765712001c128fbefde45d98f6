@@ -1,7 +1,0 @@
-package com.algaworks.cobranca.model;
-import javax.persistence.Entity;
-
-@Entity
-public class Titulo {
-	private Long codigo;
-}
