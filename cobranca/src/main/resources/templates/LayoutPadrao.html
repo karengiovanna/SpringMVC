@@ -1,32 +1,37 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-		xmlns:th="http://www.thymeleaf.org"
-		xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
-		
-		
-	<head>
-		<meta charset="UTF-8"/>
-		<title>Cadastro de Titulo</title>
-		<link rel="stylesheet" tye="text/css" href="/css/bootstrap.min.css"/>
-		<link rel="stylesheet" tye="text/css" href="/css/style.css"/>
-	</head>
-	<body>
-		
-		<nav class="navbar navbar-inverse navbar-static-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#">
-						<img alt="AlgaWorks" src="/images/logo-algaworks.png"/>
-					</a>
-				</div>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Cadastro de Titulo</title>
+	<link rel="stylesheet" tye="text/css" href="/css/bootstrap.min.css" />
+	<link rel="stylesheet" tye="text/css" href="/css/style.css" />
+</head>
+
+<body>
+
+<!--
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<img alt="AlgaWorks" src="/images/logo-algaworks.png" />
+				</a>
 			</div>
-		</nav>
-		
-		<section layout:fragment="conteudo">
-			<p>Conteúdo principal</p>
-		</section>
-		
-		<script src="/js/jquery-2.1.4.min.js"></script>	
-		<script src="/js/bootstrap.min.js"></script>
-	</body>
+		</div>
+	</nav>
+-->
+
+	<header layout:include="Cabecalho"></header>
+	
+	<section layout:fragment="conteudo">
+		<p>Conteúdo principal</p>
+	</section>
+
+	<script src="/js/jquery-2.1.4.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+</body>
+
 </html>
