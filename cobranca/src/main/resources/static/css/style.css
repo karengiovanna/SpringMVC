@@ -3,8 +3,9 @@
 }
 
 .panel-default{
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin: 10% 100px;
 }
 
 .alert{
